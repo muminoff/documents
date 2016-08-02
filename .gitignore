@@ -1,3 +1,4 @@
+*.asc
 *.gpg
 *.tar.gz
 .DS_Store
