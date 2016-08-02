@@ -19,19 +19,12 @@ $ alias split2="/usr/local/opt/coreutils/libexec/gnubin/split"
 
 ## How to pack
 ```
-$ cd documents
-$ tar czvf documents.tar.gz .
-$ gpg -e -u "Sardor" -r "Sardor" documents.tar.gz
-$ split2 -a 4 -d -b 512k documents.tar.gz.gpg documents.tar.gz.gpg.
+$ ./pack.sh
 ```
 
 ## How to unpack
 ```
-$ cd documents
-$ cat documents.tar.gz.gpg.* >documents.tar.gz.gpg
-$ gpg documents.tar.gz.gpg
-$ tar tvf documents.tar.gz
-$ tar xzvf documents.tar.gz
+$ ./unpack.sh
 ```
 
 ### Reminder
