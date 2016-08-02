@@ -1,7 +1,7 @@
 # Documents
 Personal documents
 
-![alt text](./screen.png "Personal documents")
+![alt text](https://raw.githubusercontent.com/muminoff/documents/master/screen.png "Personal documents")
 
 ## Dependencies
 1. GNU CoreUtils
