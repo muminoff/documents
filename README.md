@@ -24,7 +24,7 @@ $ split2 -a 4 -d -b 512k documents.tar.gz.gpg documents.tar.gz.gpg.
 
 ## How to unpack
 ```
-$ cat documents.tar.gz* >documents.tar.gz
+$ cat documents.tar.gz.gpg.* >documents.tar.gz.gpg
 $ tar tvf documents.tar.gz
 $ tar xzvf documents.tar.gz
 ```
