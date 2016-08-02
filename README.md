@@ -35,3 +35,6 @@ $ tar xzvf documents.tar.gz
 
 ### Reminder
 Be sure not to include your GPG private keys and unencrypted personal documents.
+
+## GPG Fingerprint
+67C2 41A3 250C A96E 9985  FFA6 FF87 153B 1371 D515
