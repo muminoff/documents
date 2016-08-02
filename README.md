@@ -29,6 +29,7 @@ $ split2 -a 4 -d -b 512k documents.tar.gz.gpg documents.tar.gz.gpg.
 ```
 $ cd documents
 $ cat documents.tar.gz.gpg.* >documents.tar.gz.gpg
+$ gpg documents.tar.gz.gpg
 $ tar tvf documents.tar.gz
 $ tar xzvf documents.tar.gz
 ```
